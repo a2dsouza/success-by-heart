@@ -1,0 +1,106 @@
+    .popup_preview_text{
+       cursor: pointer;
+       display: inline-block;
+   } 
+   .popup_layout{
+       display: none;
+   }
+   
+   .tp_video, .clear{
+	clear:both;
+   }
+   .tp_video{
+       direction: ltr;
+   }
+   
+   .the_popup_layout{
+        background-color: #EEEEEE;
+        display: none;
+        height: 100%;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 99998;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+   }
+   .the_popup_video{
+       position: fixed;
+       z-index: 99999;
+       padding: 10px;
+       display: none;
+	   top:0px;
+   }
+
+   .the_popup_video.standard{
+       background-color: #eeeeee;
+       -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;
+        border: #cccccc 1px solid;
+   }
+   .the_popup_video.strong{
+       background-color: #ffffff;
+       border: #000000 1px solid;
+   }
+   .the_popup_video.no_skin{
+       background-color: #ffffff;
+   }
+   .tp_code{
+       text-decoration: none;
+   }
+   .the_popup_close{
+        color: #696969;
+        cursor: pointer;
+        font-size: 10px;
+        line-height: 1em;
+        padding-bottom: 10px;
+        position: relative;
+        text-align: right;
+   }
+   
+   .the_popup_close.img{
+       background-image: url('images/popup-close.png');
+        background-repeat: no-repeat;
+        display: inline-block;
+        float: right;
+        height: 30px;
+        margin-right: -22px;
+        margin-top: -22px;
+        text-indent: 10000px;
+        width: 30px;
+   }
+   
+   .popup_preview_slideshow{
+       width: 120px;
+       height: 90px;
+       overflow: hidden;
+       cursor: pointer;
+   }
+   
+   
+   .slide_container{
+       width: 400px;
+   }
+   .popup_preview_slideshow img{
+       float:left;
+   }
+   .copyright{
+        background-image: url("traffic_player_logo_small.png");
+        background-position: right 0;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        float: right;
+        font-family: arial;
+        font-size: 9px;
+        margin-right: -5px;
+        margin-top: 15px;
+        padding-right: 73px;
+        display: none;
+   }
+   
+  li .popup_preview_text p {
+    color: #000000 !important;
+    font-size: 15px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+   }

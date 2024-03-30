@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+successbyheart.com	TRUE	/	FALSE	1999999999	PHPSESSID	abf6a22a86d0363ae74b732a195332e3
+

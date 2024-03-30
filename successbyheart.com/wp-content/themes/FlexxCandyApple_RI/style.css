@@ -1,0 +1,42 @@
+/*
+Theme Name:     Flexx CandyApple - Child Theme using Rotating Images
+Theme URI: 	http://ithemes.com/purchase/flexx-theme-wordpress-blog-themes/
+Description: 	Child theme for Flexx CandyApple (<strong>requires Flexx version 4 and up</strong>). Replaces the built in Featured Images with the Rotating Images Plugin. Also adds support for featured images in the blog posts, to be displayed on the blog index page, archive pages, and on single post pages. <strong>Instructions and more information on using a Child Theme with Flexx <a href="http://ithemes.com/codex/page/Flexx_Child_Themes">here</a></strong>.
+Author:		Ronald van Weerd - iThemes
+Author URI:	http://www.ithemes.com
+Version:        1.0.0
+Template:	FlexxCandyApple
+Requires:       Flexx Parent theme version 4.0.0 and up
+*/
+
+@import url("../FlexxCandyApple/style.css");
+
+/************************************************
+*	Changes go below this line
+************************************************/
+
+/************************************************
+*	Featured Post thumbnails
+************************************************/
+
+.attachment-page-single {
+    float: left;
+    margin: 12px 8px 8px 0px;
+}
+
+.attachment-index-categories {
+    float: left;
+    margin: 12px 8px 8px 0px;
+}
+img.pad {
+padding: 5px;
+}
+/************************************************
+*	Header Widget text if no widgets are used
+************************************************/
+
+.headerwidget {
+        padding: 15px;
+        background-color: #ffffe0; 
+        border: 1px solid #e6db55;
+}

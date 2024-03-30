@@ -1,0 +1,246 @@
+ 
+/*
+         *
+         * BEGIN CSS RECTANGLEBOX
+         *
+         */
+         
+    .rectanglebox {font-family:sans-serif;margin:42px auto 0;max-width:526px;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        border-radius: 16px;
+        -webkit-box-shadow:0 -4px 4px #aaa, 0 4px 4px #888;
+        -moz-box-shadow:0 -4px 4px #aaa, 0 4px 4px #888;
+        box-shadow:0 -4px 4px #aaa, 0 4px 4px #888;     
+        }
+        .rectanglebox-Orange {
+        background: #ffd65e; /* Old browsers */
+        background: -moz-linear-gradient(top,  #ffd65e 0%, #febf04 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffd65e), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #ffd65e 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #ffd65e 0%,#febf04 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #ffd65e 0%,#febf04 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #ffd65e 0%,#febf04 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 ); /* IE6-9 */
+        }
+        .rectanglebox-Grey {
+         background: #eeeeee; /* Old browsers */
+         background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+         background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+         background: -o-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Opera 11.10+ */
+         background: -ms-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* IE10+ */
+         background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C */
+         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+        }
+        .rectanglebox-Blue {
+        background: #e9f6fd; /* Old browsers */
+        background: -moz-linear-gradient(top,  #e9f6fd 0%, #d3eefb 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e9f6fd), color-stop(100%,#d3eefb)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #e9f6fd 0%,#d3eefb 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #e9f6fd 0%,#d3eefb 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #e9f6fd 0%,#d3eefb 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #e9f6fd 0%,#d3eefb 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9f6fd', endColorstr='#d3eefb',GradientType=0 ); /* IE6-9 */
+        
+        }
+        .rectanglebox-Green {
+        background: #e5e696; /* Old browsers */
+        background: -moz-linear-gradient(top,  #e5e696 0%, #d1d360 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e696), color-stop(100%,#d1d360)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #e5e696 0%,#d1d360 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #e5e696 0%,#d1d360 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #e5e696 0%,#d1d360 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #e5e696 0%,#d1d360 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e696', endColorstr='#d1d360',GradientType=0 ); /* IE6-9 */
+        }
+        .rectanglebox-Red {
+        background: #cc8c8c; /* Old browsers */
+        background: -moz-linear-gradient(top,  #cc8c8c 0%, #cc5959 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cc8c8c), color-stop(100%,#cc5959)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #cc8c8c 0%,#cc5959 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #cc8c8c 0%,#cc5959 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #cc8c8c 0%,#cc5959 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #cc8c8c 0%,#cc5959 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc8c8c', endColorstr='#cc5959',GradientType=0 ); /* IE6-9 */
+        }
+        .rectanglebox .wprrow {width:100%;margin:0 auto;}
+        .rectanglebox .wprrow .wprten {width:83%;float:left;}
+        .rectanglebox .wprrow .wprten h2 {margin: 1em 0.83em;font-size: 1.6em;}
+        .rectanglebox .wprrow .wprtwo {width:17%;float:right;}
+        .rectanglebox .wprrow .wprtwo img {max-width:100%;height:auto;margin-top:-30px;}
+        .rectanglebox .wprrow .wprtwo img{-ms-interpolation-mode:bicubic;}
+        .rectanglebox .wprrow .wprtwelve {float: left;min-height: 1px;padding: 0 15px;position: relative;}
+        .rectanglebox .wprrow .wprtwelve p {margin-bottom:14px;font-size:0.9em;}
+        .rectanglebox .wprrow .wprtwelve img.buynowbutton {display:block;margin:12px auto;max-width:100%;height:auto;}
+        [class*="wprcol"] + [class*="wprcol"]:last-child { float: right; }
+        [class*="wprcol"] + [class*="wprcol"].end { float: left; }
+        .rectanglebox .wprrow{*zoom:1}
+        .rectanglebox .wprrow:before,.rectanglebox .wprrow:after{content:"";display:table}
+        .rectanglebox .wprrow:after{clear:both}
+        .rectanglebox .wprrow .wprcol a.buynowbutton {}
+        .rectanglebox .wprrow .wprcol a.buynowbutton span {display:block;margin:-56px auto 32px;width:100%;z-index:2;text-decoration:none;color:#fff;text-align:center;font-size:1.8em;font-weight:bold;}
+        
+        /*
+         *
+         * END CSS RECTANGLEBOX
+         *
+         */
+        
+        /*
+         *
+         * BEGIN CSS SQUAREBOX
+         *
+         */
+        
+        .squarebox {max-width:357px;margin:42px auto 0;font-family:sans-serif;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+        background: #dddddd; /* Old browsers */
+        background: -moz-linear-gradient(top,  #dddddd 0%, #f1f1f1 67%, #e1e1e1 75%, #f6f6f6 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dddddd), color-stop(67%,#f1f1f1), color-stop(75%,#e1e1e1), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #dddddd 0%,#f1f1f1 67%,#e1e1e1 75%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #dddddd 0%,#f1f1f1 67%,#e1e1e1 75%,#f6f6f6 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #dddddd 0%,#f1f1f1 67%,#e1e1e1 75%,#f6f6f6 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #dddddd 0%,#f1f1f1 67%,#e1e1e1 75%,#f6f6f6 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        border-radius: 16px;
+        -webkit-box-shadow:0 -4px 4px #aaa, 0 4px 4px #888;
+        -moz-box-shadow:0 -4px 4px #aaa, 0 4px 4px #888;
+        box-shadow:0 -4px 4px #aaa, 0 4px 4px #888;
+        }
+        .squarebox .wprrow {width:100%;margin:0 auto;}
+        /*.squarebox .wprrow .wprten {width:83%;float:left;}
+        .squarebox .wprrow .wprtwo {width:17%;float:right;}
+        .squarebox .wprrow .wprtwo img {max-width:100%;height:auto;margin-top:-30px;}
+        .squarebox .wprrow .wprtwo img{-ms-interpolation-mode:bicubic;} */
+        .squarebox .wprrow .wprtwelve {float: left;min-height: 1px;padding: 0 15px;position: relative;}
+        .squarebox .wprrow .wprtwelve h2 {font-family:verdana,sans-serif;margin:1em 0.83em 1em;font-size:1.4em;text-align:center;}
+        .squarebox .wprrow .wprtwelve h5 {font-family:verdana,sans-serif;margin:0.2em 0.83em;font-size:1em;text-align:center;font-weight:normal;}
+        .squarebox .wprrow .wprtwelve p {font-family:verdana,sans-serif;margin-bottom:14px;font-size:0.9em;font-style:italic;text-align:justify;line-height:1.3;padding:0 10px;}
+        .squarebox .wprrow .wprtwelve img.buynowbutton {display:block;margin:12px auto;max-width:100%;height:auto;-ms-interpolation-mode:bicubic;}
+        [class*="wprcol"] + [class*="wprcol"]:last-child { float: right; }
+        [class*="wprcol"] + [class*="wprcol"].end { float: left; }
+        .squarebox .wprrow{*zoom:1}
+        .squarebox .wprrow:before,.squarebox .wprrow:after{content:"";display:table}
+        .squarebox .wprrow:after{clear:both}
+        .squarebox .wprrow .wprcol a.buynowbutton {}
+        .squarebox .wprrow .wprcol a.buynowbutton span {display:block;margin:-62px auto 32px;width:100%;z-index:2;text-decoration:none;color:#fff;text-align:center;font-size:1.8em;font-weight:bold;}
+         
+        /*
+         *
+         * END CSS SQUAREBOX
+         *
+         */
+
+        /*
+         *
+         * BEGIN CSS BANNERBOX
+         *
+         */
+         
+        .bannerbox {max-width:601px;margin:42px auto 0;font-family:sans-serif;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+        .bannerbox .inner {}
+        .bannerbox .inner .button-Orange {
+            background: #ffd65e; /* Old browsers */
+                background: -moz-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#ffd65e 16%, #febf04 84%,#ffffff 86%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(14%,#ffffff), color-stop(16%,#ffd65e), color-stop(84%,#febf04), color-stop(86%,#ffffff)); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#ffd65e 16%, #febf04 84%,#ffffff 86%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#ffd65e 16%, #febf04 84%,#ffffff 86%); /* Opera 11.10+ */
+                background: -ms-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#ffd65e 16%, #febf04 84%,#ffffff 86%); /* IE10+ */
+                background: linear-gradient(to bottom,  #ffffff 1%, #ffffff 14%,#ffd65e 16%, #febf04 84%,#ffffff 86%); /* W3C */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 ); /* IE6-9 */
+        }
+        .bannerbox .inner .button-Grey {
+                 background: #eeeeee; /* Old browsers */
+                 background: -moz-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#eeeeee 16%, #cccccc 84%,#ffffff 86%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(14%,#ffffff), color-stop(16%,#eeeeee), color-stop(84%,#cccccc), color-stop(86%,#ffffff)); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#eeeeee 16%, #cccccc 84%,#ffffff 86%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#eeeeee 16%, #cccccc 84%,#ffffff 86%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#eeeeee 16%, #cccccc 84%,#ffffff 86%); /* IE10+ */
+                 background: linear-gradient(to bottom,  #ffffff 1%, #ffffff 14%,#eeeeee 16%, #cccccc 84%,#ffffff 86%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+        }
+        .bannerbox .inner .button-Blue {
+                background: #63b6db; /* Old browsers */
+				background: -moz-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#63b6db 16%, #309dcf 84%,#ffffff 86%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(14%,#ffffff),color-stop(16%,#63b6db), color-stop(84%,#309dcf), color-stop(86%,#ffffff)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#63b6db 16%,#309dcf 84%,#ffffff 86%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#63b6db 16%,#309dcf 84%,#ffffff 86%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#63b6db 16%,#309dcf 84%,#ffffff 86%); /* IE10+ */
+				background: linear-gradient(to bottom,  #ffffff 1%, #ffffff 14%,#63b6db 16%,#309dcf 84%,#ffffff 86%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63b6db', endColorstr='#309dcf',GradientType=0 ); /* IE6-9 */
+        
+        }
+        .bannerbox .inner .button-Green {
+            background: #e5e696; /* Old browsers */
+                background: -moz-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#e5e696 16%, #d1d360 84%,#ffffff 86%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(14%,#ffffff), color-stop(16%,#e5e696), color-stop(84%,#d1d360), color-stop(86%,#ffffff)); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(top, #ffffff 1%, #ffffff 14%,#e5e696 16%, #d1d360 84%,#ffffff 86%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#e5e696 16%, #d1d360 84%,#ffffff 86%); /* Opera 11.10+ */
+                background: -ms-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#e5e696 16%, #d1d360 84%,#ffffff 86%); /* IE10+ */
+                background: linear-gradient(to bottom,  #ffffff 1%, #ffffff 14%,#e5e696 16%, #d1d360 84%,#ffffff 86%); /* W3C */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e696', endColorstr='#d1d360',GradientType=0 ); /* IE6-9 */
+        }
+        .bannerbox .inner .button-Red {
+            background: #cc8c8c; /* Old browsers */
+                background: -moz-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#cc8c8c 16%, #cc5959 84%,#ffffff 86%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(14%,#ffffff), color-stop(16%,#cc8c8c), color-stop(84%,#cc5959), color-stop(86%,#ffffff)); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#cc8c8c 16%, #cc5959 84%,#ffffff 86%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#cc8c8c 16%, #cc5959 84%,#ffffff 86%); /* Opera 11.10+ */
+                background: -ms-linear-gradient(top,  #ffffff 1%, #ffffff 14%,#cc8c8c 16%, #cc5959 84%,#ffffff 86%); /* IE10+ */
+                background: linear-gradient(to bottom,  #ffffff 1%, #ffffff 14%,#cc8c8c 16%, #cc5959 84%,#ffffff 86%); /* W3C */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc8c8c', endColorstr='#cc5959',GradientType=0 ); /* IE6-9 */
+        }
+        .bannerbox .wprrow {width:100%;margin:0 auto;}
+        .bannerbox .wprrow .wprten {width:83%;float:left;}
+        .bannerbox .wprrow .wprten a h2 {text-align:center;margin:42px 0;font-size:1.4em;color:#fff;text-shadow:0 0 3px #333;}
+        .bannerbox .wprrow .wprtwo {width:17%;float:left;}
+        .bannerbox .wprrow .wprtwo img {max-width:100%;height:auto;margin:0 0 0 12px;}
+        .bannerbox .wprrow .wprtwo img{-ms-interpolation-mode:bicubic;}
+        /*.bannerbox .wprrow .wprtwelve {float: left;min-height: 1px;padding: 0 15px;position: relative;}
+        .bannerbox .wprrow .wprtwelve p {margin-bottom:14px;font-size:0.9em;}
+        .bannerbox .wprrow .wprtwelve img.buynowbutton {display:block;margin:12px auto;max-width:100%;height:auto;}*/
+        [class*="wprcol"] + [class*="wprcol"]:last-child { float: right; }
+        [class*="wprcol"] + [class*="wprcol"].end { float: left; }
+        .bannerbox .wprrow{*zoom:1}
+        .bannerbox .wprrow:before,.bannerbox .wprrow:after{content:"";display:table}
+        .bannerbox .wprrow:after{clear:both}
+        .bannerbox .wprrow .wprcol a.buynowbutton {text-decoration:none;color:#fff;text-align:center;font-size:1.8em;font-weight:bold;}
+        .bannerbox .wprrow .wprcol a.buynowbutton span {display:block;margin:-56px auto 32px;width:100%;z-index:2;}
+        
+
+        /*
+         *
+         * END CSS BANNERBOX
+         *
+         */
+         
+/*
+         *
+         * SOME RESPONSIVE STUFF FOR ALL TYPES ;-)
+         *
+         */
+         
+        @media screen and (max-width: 542px) and (min-width: 498px){
+                .rectanglebox .wprrow .wprcol a.buynowbutton span {margin:-50px auto 26px;}
+        }
+        @media screen and (max-width: 497px) and (min-width: 338px){
+                .rectanglebox .wprrow .wprcol a.buynowbutton span {margin:-40px auto 20px;font-size:1em !important;}
+                .bannerbox .wprrow .wprten h2 {line-height:1.4;padding:10px 4px !important;margin:5px 0 !important;font-size:1em !important;}
+                .squarebox .wprrow .wprcol a.buynowbutton span {font-size:1.2em !important;margin: -54px auto 32px;}
+        }
+        @media screen and (max-width: 337px) and (min-width: 258px){
+				.rectanglebox .wprrow .wprcol a.buynowbutton span {margin:-35px auto 20px;font-size:1em !important;}
+                .squarebox .wprrow .wprcol a.buynowbutton {}
+                .squarebox .wprrow .wprcol a.buynowbutton span{margin:-50px auto 28px;font-size:1.2em !important;}
+                .bannerbox .wprrow .wprtwo img {margin:-4px 0 0 12px;}
+                .bannerbox .wprrow .wprten h2 {line-height:1.2;padding:10px 4px !important; margin:5px 0 !important;font-size:1em !important;}
+        }
+        @media screen and (max-width: 257px){
+                .rectanglebox .wprrow .wprcol a.buynowbutton {}
+                .rectanglebox .wprrow .wprcol a.buynowbutton span {margin:-38px auto 10px;font-size:1em !important;}
+                .squarebox .wprrow .wprcol a.buynowbutton {}
+                .squarebox .wprrow .wprcol a.buynowbutton span{margin:-44px auto 20px;font-size:1.2em !important;}
+				.bannerbox .wprrow .wprten h2 {line-height:1.4;padding:10px 4px !important; margin:5px 0 !important; font-size:1em !important;}
+        }
